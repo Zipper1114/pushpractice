@@ -1,0 +1,821 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #3c3c3c;
+}
+
+.fa-circle-chevron-right {
+    font-size: 8px;
+    color: #e60012;
+}
+
+/*全指定部分終了*/
+
+/*header部分*/
+header {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+header h1 {
+    width: 227px;
+    background-color: #e60012;
+}
+
+h1 img{
+    width: 156px;
+    margin-top: 16px;
+    margin-left: 30px;
+}
+
+
+/*nav部分*/
+nav {
+    margin-right: auto;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li .nav_icon {
+    width: 15px;
+    height: 15px;
+    margin-top: 26px;
+    margin-left: 84px;
+    margin-right: 8px;
+}
+
+nav ul li img {
+    width: 15px;
+    height: 15px;
+}
+
+nav ul li {
+    display: flex;
+    width: 258px;
+    border-right: 0.5px solid  #d3d3d3;
+    border-bottom: 0.5px solid #d3d3d3;
+    transition: 0.2s;
+}
+
+nav ul li a{
+    display: block;
+    text-align: center;
+    line-height: 75px;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 5px solid transparent;
+}
+
+nav ul li:hover {
+   
+    transition: 0.2s;
+}
+
+nav ul li a:hover {
+    border-bottom: 5px solid #e60012;
+    color: #e60012;
+}
+
+/*main開始*/
+/*トップイメージ画像*/
+
+main .slide {
+    width: 100%;
+    height: 556px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1px;
+}
+
+#makeImg img {
+    width: 100%;
+    height: 556px;
+}
+
+/*画像下リスト*/
+.main_under_list {
+    display: flex;
+    margin-bottom: 120px;
+}
+
+.main_under_list li {
+    display: flex;
+    width: 302px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px dashed #ccc;
+}
+
+.main_under_list li a {
+    display: block;
+    width: 260px;
+    line-height: 6;
+    font-size: 12px;
+    color: #808080;
+}
+
+.main_under_list .img_icon {
+    width: 45px;
+    height: 45px;
+    margin-top: 10px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.main_under_list li img {
+    width: 45px;
+    height: 45px;
+}
+
+.main_under_list li:hover a {
+    color: #e60012;
+}
+
+/*topics開始*/
+
+h2 {
+    width: 1197px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.topics {
+    margin-bottom: 50px;
+} 
+
+.top-topics {
+    display: flex;
+    width: 1197px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+
+.top-topics section {
+    width: 287px;
+}
+
+.top-topics section:not(:last-child) {
+    margin-right: 16px;
+}
+
+.top-topics img {
+    width: 287px;
+    height: 150px;
+}
+
+.topics-title {
+    width: 287px;
+    height: 158px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.smallfont-flex {
+    display: flex;
+    width: 287px;
+}
+
+.smallfont-flex i {
+    width: 8px;
+    margin-top: 16px;
+    margin-left: auto;
+}
+
+.small-font {
+    color: #808080;
+    font-size: 12px;
+}
+
+.small-font p:last-child {
+    font-size: 10px;
+}
+
+.small-font i {
+    margin-left: 161px;
+}
+
+.top-topics section:hover img {
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.red-button {
+    display: flex;
+    width: 198px;
+    height: 42px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 3;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 2px;
+    border: 2px solid #e60012;
+    background-color: #e60012;
+    transition: 0.3s;
+}
+
+.red-button i {
+    display: block;
+    width: 8px;
+    margin-top: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.red-button:hover {
+    border: 2px solid #e60012;
+    color: #e60012;
+    background-color: #fff;
+    transition: 0.3s;
+}
+
+.red-button:hover i {
+    color: #e60012;
+    transition: 0.3s;
+}
+
+
+/*ゲームソフト開始*/
+.gamesoft {
+    display: flex;
+    width: 1197px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+}
+
+.gamesoft section:not(:last-of-type) {
+    margin-right: 32px;
+}
+
+.gamesoft img {
+    width: 275px;
+    height: 150px;
+}
+
+.gamesoft img:hover {
+    opacity: 0.7;
+}
+
+.ImgBox{
+    width: 275px;
+    height: 150px;
+    overflow: hidden;
+  }
+
+  .ImgBox img{
+    transition-duration: 0.3s;
+  }
+
+  
+
+.gamesoft .small-font i {
+    margin-left: 100px;
+}
+
+.gamesoft-title {
+    width: 275px;
+    height: 160px;   
+}
+
+.gamesoft-title p {
+    font-weight: bold;
+}
+
+.gamesoft-title p:first-child {
+    font-size: 12px;
+    color: #e60012;
+}
+
+/*section:hover時の記述*/
+.gamesoft section:hover .ImgBox img{
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+  }
+
+.gamesoft section:hover .gamesoft-title p {
+    color: #e60012;
+}
+
+/*デバイス一覧開始*/
+
+.device-button-flex {
+    display: flex;
+    width: 1197px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.device-list {
+    display: flex;
+    margin-right: 20px;
+}
+
+.device-list li {
+    display: flex;
+    width: 335px;
+    font-size: 14px;
+    border-top: 5px solid #d3d3d3;
+}
+
+.device-list li:nth-child(2) {
+    margin-right: 2px;
+    margin-left: 2px;
+    border-left: 1px dashed #d3d3d3;
+    border-right: 1px dashed #d3d3d3;
+}
+
+.device-middle {
+    display: flex;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.device-middle i {
+    margin-top: 32px;
+}
+
+.device-list img {
+    width: 50px;
+    height: 60px;
+}
+
+.device-list-title {
+    width: 168px;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.device-list li:hover{
+    opacity: 0.7;
+    border-top: 5px solid #e60012;
+    transition: 0.3s;
+}
+
+
+/*デバイス横ボタン*/
+.white-button {
+    display: flex;
+    width: 163px;
+    height: 38px;
+    line-height: 3;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #3c3c3c;
+    border-radius: 2px;
+    border: 2px solid #d3d3d3;
+}
+
+.white-button:first-child {
+    margin-bottom: 5px;
+}
+
+.white-button:hover {
+    border: 2px solid #e60012;
+    color: #e60012;
+    background-color: #fff;
+    transition: 0.2s;
+}
+
+.button-icon {
+    width: 20px;
+    margin-right: 20px;
+}
+
+.white-button i {
+    display: block;
+    width: 8px;
+    margin-top: 16px;
+    margin-left: 20px;
+    margin-right: 10px;
+    font-size: 8px;
+    color: #e60012;
+}
+
+/*更新情報開始*/
+
+.update {
+    margin-top: 60px;
+}
+
+.update-list {
+    width: 1197px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.update-list li {
+    display: flex;
+    padding-top: 19px;
+    padding-right: 8px;
+    padding-bottom: 17px;
+    border-bottom: 1px dashed #d3d3d3;
+}
+
+.update-list li:last-child {
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.update-list li span {
+    margin-right: 32px;
+    font-weight: bold;
+}
+
+.update-list li a {
+    display: block;
+    font-size: 14px;
+}
+
+.update-list li a:hover {
+    color: #e60012;
+}
+
+.update-list i {
+    display: block;
+    width: 5px;
+    margin-top: 5px;
+    margin-left: auto;
+}
+
+.update-button i {
+    margin-right: 38px;
+}
+
+/*お客様へのお知らせ開始*/
+.announce {
+    padding-top: 22px;
+    padding-bottom: 22px;
+    border-top: 1px solid #d3d3d3;
+
+}
+
+.announce-style-box {
+    display: flex;
+}
+
+.announce-p {
+    padding-top: 24px;
+    padding-left: 312px;
+    padding-right: 40px;
+    padding-bottom: 24px;
+    border-right: 2px solid #d3d3d3;
+    color: #808080;
+    font-weight: bold;
+}
+
+.announce-title p {
+    margin-left: 40px;
+    font-size: 14px;
+}
+
+.announce-title p:first-child {
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+.announce-title i {
+    margin-right: 5px;
+}
+
+.announce-title p:hover a {
+    color: #e60012;
+}
+
+/*任天堂マーク＆トップバック開始*/
+.top-back {
+    
+    height: 117px;
+    background-color: #e60012;
+}
+
+.top-back-wrap {
+    display: flex;
+    width: 1197px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top-back-icon {
+    width: 1137px;
+}
+
+.top-back-icon img {
+    display: block;
+    width: 127px;
+    margin-top: 40px;
+}
+
+.top-back a {
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin-top: 24px;
+    padding-left: 20px;
+    font-size: 40px;
+    border-left: 1px dashed #fff;
+    color: #fff;
+}
+
+/*SNSリンクリスト開始*/
+.sns-list {
+    display: flex;
+    width: 1197px;
+    height: 117px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sns-list li {
+    width: 187px;
+    line-height: 117px;
+    border-bottom: 1px solid #d3d3d3;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.sns-list li:first-child {
+    width: 448px;
+    color: #808080;
+}
+
+.sns-list li a{
+    display: flex;
+}
+
+.sns-list img {
+    width: 56px;
+    height: 50px;
+    margin-top: 32px;
+    margin-right: 10px;
+}
+
+.sns-list li:hover p {
+    color: #e60012;
+}
+
+/*オンラインサービス開始*/
+.online-service {
+    width: 1197px;
+    height: 128px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.online-service ul {
+    display: flex;
+}
+
+.online-service li {
+    width: 299px;
+    margin-top: 32px;
+}
+
+.online-service li a {
+    display: flex;
+}
+
+.online-service li img {
+    width: 64px;
+    height: 64px;
+    margin-right: 20px;
+    background-color: #e60012;
+}
+
+.online-title p {   
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.online-title p:first-child {
+    margin-top: 8px;
+    color: #3c3c3c;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.online-service li:hover p {
+    color: #e60012;
+}
+
+.online-service li:hover p:first-child {
+    color: #3c3c3c;
+}
+
+
+
+/*会社情報開始*/
+
+.company-info {
+    width: 1197px;
+    height: 72px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.company-info ul{
+    display: flex;
+    margin-left: 104px;
+}
+
+.company-info li {
+    width: 180px;
+    line-height: 72px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.company-info li:nth-child(2) {
+    width: 250px;
+}
+
+.company-info li:nth-child(3) {
+    width: 200px;
+}
+
+.company-info i {
+    color: #808080;
+}
+
+.company-info li:hover {
+    opacity: 0.7;
+}
+
+/*footer開始*/
+/*footer nav開始*/
+
+footer {
+    background-color: #F2F2F2;
+}
+
+.footer-nav {
+    width: 1197px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-nav-flexbox {
+    display: flex;
+    width: 810px;
+}
+
+.footer-nav-flexbox-inside {
+    width: 204px;
+}
+
+.footer-nav-flexbox-inside h3 {
+    padding-left: 8px;
+    font-size: 14px;
+    border-left: 8px solid #d3d3d3;
+}
+
+.footer-nav-flexbox-inside li {
+    margin-top: 8px;
+}
+
+.footer-nav-flexbox-inside a {
+    font-size: 12px;
+}
+
+.two-topics li:last-child{
+    margin-bottom: 40px;
+}
+
+.footer-nav-flexbox-inside li:hover a {
+    color: #e60012;
+    transition: 0.3s;
+}
+
+/*footerバナー部分開始*/
+.footer-banner {
+    display: flex;
+    width: 1197px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+    font-weight: bold;
+    border-top: 1px solid #d3d3d3;
+}
+
+.footer-banner-box {
+    margin-top: 30px;
+}
+
+.footer-banner-box p {
+    margin-top: 8px;
+}
+
+.footer-banner-box a {
+    display: flex;
+}
+
+.footer-banner-box img {
+    width: 260px;
+    height: 60px;
+    margin-left: 30px;
+    margin-right: 10px;
+} 
+
+.footer-banner-box:hover img {
+    opacity: 0.7;
+}
+
+/*copyright部分開始*/
+.footer-wrapper {
+    width: 99.99%;
+    border-top: 1px solid #d3d3d3;
+}
+
+.footer-copyright {
+    display: flex;
+    width: 1197px;
+    height: 56px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-copyright p {
+    line-height: 56px;
+}
+
+.footer-copyright ul {
+    display: flex;
+    width: 580px;
+    margin-left: auto;
+    font-size: 12px;
+}
+
+.footer-copyright li {
+    width: 132px;
+    margin-top: 20px;
+}
+
+.footer-copyright li:nth-child(2) {
+    width: 184px;
+}
+
+.footer-copyright li:last-child {
+    margin-top: 12px;
+}
+
+.footer-copyright i {
+    color: #808080;
+}
+
+.footer-copyright a {
+    display: block;
+}
+
+.footer-copyright a:hover {
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+/*サイトマップボタン*/
+.footer-button {
+    display: flex;
+    height: 35px;
+    line-height: 3;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2px;
+    background-color: #d3d3d3;
+}
+
+.footer-button i {
+    width: 5px;
+    color: #fff;
+}
+
+.footer-button:hover {
+    opacity: 0.7;
+}
