@@ -25,6 +25,7 @@ a {
 header {
     display: flex;
     margin-bottom: 5px;
+    background-color: aquamarine;
 }
 
 header h1 {
