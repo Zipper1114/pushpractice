@@ -24,8 +24,7 @@ a {
 /*header部分*/
 header {
     display: flex;
-    margin-bottom: 5px;
-    background-color: aquamarine;
+    background-color: red;
 }
 
 header h1 {
